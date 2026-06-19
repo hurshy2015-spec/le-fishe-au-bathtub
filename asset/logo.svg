@@ -14,6 +14,13 @@
         fill: #29abe2;
         filter: url(#hand-drawn-noise);
       }
+
+      @media (max-width: 768px) {
+        .st0,
+        .st1 {
+          filter: none;
+        }
+      }
     </style>
     <filter id="hand-drawn-noise" x="-8%" y="-8%" width="116%" height="116%">
       <feTurbulence
