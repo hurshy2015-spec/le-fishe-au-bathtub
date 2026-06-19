@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Le Fishé au Bathtub</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+    <main class="poster">
+        <header class="poster-header">
+            <a class="logo-slot" id="logoLink" href="https://youtu.be/bbcPLei01Ls?si=u7FofAmZX0QTiyTG" target="_blank" rel="noopener noreferrer">
+                <img src="./asset/logo.svg" alt="Le Fishé au Bathtub logo">
+            </a>
+            <p>click the bathtub</p>
+        </header>
+
+        <section class="bathtub-stage" id="bathtubStage">
+            <pre class="bathtub-art" aria-label="ASCII bathtub">
+      .----.          .--------.
+     / .--._\        ||------||
+     ||    o         ||      ||
+     ||      o       ||------||
+     ||             =||=    =||=
+     ||   o          !!!    !!!
+     || o    o  .  o o  .---.
+  ___||___o_____ .---._____________
+ (______________|     |________..__)
+  \        o    |_____|          /
+   \     o      |_____|         /
+    \                          /
+     `-.____________________.-'
+         _/               \_
+        (_)               (_)
+            </pre>
+
+            <div class="water-mask" aria-hidden="true">
+                <div class="fish" id="fish">
+<pre>
+      /\
+    _/./
+ ,-'    `-:..-'/
+: o )      _  (
+"`-....,--; `-.\
+    `' </pre>
+                </div>
+
+                <div class="dead-fish" id="deadFish"></div>
+
+                <div class="food" id="food">.</div>
+            </div>
+        </section>
+    </main>
+
+    <audio id="bgm" src="./asset/lefishe.m4a" preload="auto"></audio>
+    <script src="./js/script.js"></script>
+</body>
+</html>
